@@ -271,7 +271,7 @@ public class ResourceServlet {
 
 		long id = System.currentTimeMillis();
 		String name = "Sample category";
-		String value = "List of sample files";
+		String value = "List of sample files 222";
 
 		// create a new document
 		System.out.println("Creating new document with id : " + id);
