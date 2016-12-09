@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sr-cloudant-debug
+  host: sr-cloudant-debug
+  disk_quota: 1024M
+  services:
+  - sr-cloudant-debug-cloudantNoSQLDB
+  - availability-monitoring-auto
